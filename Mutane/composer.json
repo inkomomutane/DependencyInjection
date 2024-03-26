@@ -23,6 +23,6 @@
     "minimum-stability": "dev",
     "require": {
         "php" : "^8.2",
-        "mutane/dicontainer": "dev-main"
+        "mutane/dicontainer": "dev-master"
     }
 }

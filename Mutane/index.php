@@ -6,8 +6,8 @@ use Mutane\Repository\UserRepository;
 
 require 'vendor/autoload.php';
 $container = Container::getInstance();
-$container->registerInstance(Database::class, fn() => new \Mutane\Database\JsonDatabase);
 
+$container->registerInstance(Database::class, fn() => new \Mutane\Database\ArrayDatabase);
 try {
     $repository  = $container->get(UserRepository::class);
     var_dump($repository->getUsers());
