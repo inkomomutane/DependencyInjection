@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "johnDoe@json.mutane.me"
+  },
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "JaneDoe@json.mutane.me"
+    }
+]

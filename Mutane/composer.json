@@ -1,0 +1,28 @@
+{
+    "name": "mutane/dependency-injection",
+    "description": "A simple ",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Mutane\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url" : "../DIContainer"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Nelson Alexandre Mutane",
+            "email": "nelson.mutane@uzambeze.ac.mz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.2",
+        "mutane/dicontainer": "dev-main"
+    }
+}

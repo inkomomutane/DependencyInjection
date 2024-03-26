@@ -1,0 +1,20 @@
+{
+    "name": "mutane/dicontainer",
+    "description": "A light and simple service container for dependency injection for study case only",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mutane\\DIContainer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nelson Alexandre Mutane",
+            "email": "nelson.mutane@uzambeze.ac.mz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    "php" : "^8.2"
+    }
+}
