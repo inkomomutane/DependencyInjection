@@ -25,20 +25,20 @@ class Container
     /**
      * @throws ReflectionException
      */
-    public function get(string $classname){
+    public function get(string $className){
 
-        if(isset($this->registry[$classname])){
+        if(isset($this->registry[$className])){
 
-            return $this->registry[$classname]();
+            return $this->registry[$className]();
 
         }
 
-        $reflection = new ReflectionClass($classname);
+        $reflection = new ReflectionClass($className);
 
         $constructor = $reflection->getConstructor();
 
         if(is_null($constructor)){
-            return new $classname;
+            return new $className;
         }
 
         $deps = [];
